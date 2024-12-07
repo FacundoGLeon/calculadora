@@ -37,6 +37,10 @@ int main() {
                 break;
 
             case 3:
+                printf("Ingrese primer entero\n");
+                scanf("%d",&num1);
+                printf("Ingrese segundo entero\n");
+                scanf("%d",&num2);
                 resultado = multiplicar(num1, num2);
                 printf("Resultado de la multiplicacion: %d\n\n",resultado);
                 break;
@@ -59,8 +63,8 @@ int restar(int a, int b) {
 
     return a-b;
 }
-
+// Mks.Leon
 int multiplicar(int a, int b) {
 
-    return 0;
+    return a*b;
 }
