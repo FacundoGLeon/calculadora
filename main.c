@@ -28,7 +28,10 @@ int main() {
                 break;
 
             case 2:
-
+                printf("Ingrese primer entero\n");
+                scanf("%d",&num1);
+                printf("Ingrese segundo entero\n");
+                scanf("%d",&num2);
                 resultado = restar(num1, num2);
                 printf("Resultado de la resta: %d\n\n",resultado);
                 break;
@@ -51,10 +54,10 @@ int main() {
 int sumar(int a, int b) {
     return a + b;
 }
-
+// Mks.Leon
 int restar(int a, int b) {
 
-    return 0;
+    return a-b;
 }
 
 int multiplicar(int a, int b) {
