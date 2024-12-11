@@ -24,7 +24,10 @@ int main() {
         scanf("%d", &opcion);
         switch (opcion) {
             case 1:
-
+                printf("Ingrese primer entero:\n");
+                scanf("%d",&num1);
+                printf("Ingrese segundo entero:\n");
+                scanf("%d",&num2);
                 resultado = sumar(num1, num2);
                 printf("Resultado de la suma: %d\n\n",resultado);
                 break;
@@ -58,7 +61,7 @@ int main() {
 }
 
 int sumar(int a, int b) {
-    return 0;
+    return a + b;
 }
 
 int restar(int a, int b) {
