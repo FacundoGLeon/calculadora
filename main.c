@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+/*
+printf("Ingrese primer entero:\n");
+                scanf("%d",&num1);
+                printf("Ingrese segundo entero:\n");
+                scanf("%d",&num2);*/
 
 int sumar(int a, int b);
 int restar(int a, int b);
@@ -19,19 +24,13 @@ int main() {
         scanf("%d", &opcion);
         switch (opcion) {
             case 1:
-                printf("Ingrese primer entero:\n");
-                scanf("%d",&num1);
-                printf("Ingrese segundo entero:\n");
-                scanf("%d",&num2);
+
                 resultado = sumar(num1, num2);
                 printf("Resultado de la suma: %d\n\n",resultado);
                 break;
 
             case 2:
-                printf("Ingrese primer entero\n");
-                scanf("%d",&num1);
-                printf("Ingrese segundo entero\n");
-                scanf("%d",&num2);
+
                 resultado = restar(num1, num2);
                 printf("Resultado de la resta: %d\n\n",resultado);
                 break;
@@ -54,14 +53,14 @@ int main() {
     } while (opcion != 4);
     return 0;
 }
-//Facundo Leon
+
 int sumar(int a, int b) {
-    return a + b;
+    return 0;
 }
-// Mks.Leon
+
 int restar(int a, int b) {
 
-    return a-b;
+    return 0;
 }
 // Mks.Leon
 int multiplicar(int a, int b) {
